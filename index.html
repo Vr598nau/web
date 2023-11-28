@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mad Lib Form</title>
+</head>
+<body>
+  
+  <div class="mad-lib-header">
+    <h1><span style="color: #000000;">MAD LIBS</span></h1>
+    <p>Get ready to unleash your creativity and create a story that's as wild as a herd of <span style="color: #c50a0a;">dancing flamingos</span> on roller skates!</p>
+  </div>
+
+  <form action="/itc505/lab7" method="post">
+    <label for="noun">Noun:</label>
+    <input type="text" name="noun" required><br>
+
+    <label for="verb">Verb:</label>
+    <input type="text" name="verb" required><br>
+
+    <label for="adjective">Adjective:</label>
+    <input type="text" name="adjective" required><br>
+
+    <label for="adverb">Adverb:</label>
+    <input type="text" name="adverb" required><br>
+
+    <label for="pluralNoun">Plural Noun:</label>
+    <input type="text" name="pluralNoun" required><br>
+
+    <input type="submit" value="Generate Mad Lib">
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: url('download.jpg') center/contain no-repeat rgb(242, 242, 242);
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.mad-lib-header {
+  background-color: rgb(221, 232, 21);
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Comic Sans MS', cursive; 
+  font-weight: bold; 
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+p {
+  font-family: 'Comic Sans MS', cursive; 
+  color: rgb(6, 0, 0)101;
+}
+form {
+  background-color: #dfec1c;
+  padding: 40px;
+  border-radius: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; 
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: rgb(19, 152, 219);
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(48, 90, 228);
+}
